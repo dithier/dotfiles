@@ -16,6 +16,22 @@ set nocompatible
 :set shiftwidth=4
 :set expandtab
 
+set tabstop=4
+:set shiftwidth=4
+:set expandtab
+
+set tabstop=4
+:set shiftwidth=4
+:set expandtab
+
+set tabstop=4
+:set shiftwidth=4
+:set expandtab
+
+set tabstop=4
+:set shiftwidth=4
+:set expandtab
+
 
 " Turn on syntax highlighting.
 syntax on
@@ -85,6 +101,10 @@ inoremap <Right> <ESC>:echoe "Use l"<CR>
 inoremap <Up>    <ESC>:echoe "Use k"<CR>
 inoremap <Down>  <ESC>:echoe "Use j"<CR>
 
+" NERD Commenter config
+filetype plugin on
+let g:NERDCreateDefaultMappings = 1
+
 " Setting plugins
 call plug#begin()
 
@@ -92,6 +112,7 @@ Plug 'rhysd/vim-clang-format'
 Plug 'preservim/nerdtree'
 Plug 'itchyny/lightline.vim'
 Plug 'dense-analysis/ale'
+Plug 'preservim/nerdcommenter'
 
 call plug#end()
 
