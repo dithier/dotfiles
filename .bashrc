@@ -13,3 +13,4 @@ alias run_autograder_debug="docker-compose run -v $AUTOGRADER_PATH/solution:/aut
 alias docker_run_autograder_debug="docker run -v $AUTOGRADER_PATH/solution:/autograder/submission -v $AUTOGRADER_PATH/results:/autograder/results gradescope/autograder-base:rocky-8 /bin/bash"
 alias docker_run_autograder="docker run -v $AUTOGRADER_PATH/solution:/autograder/submission -v $AUTOGRADER_PATH/results:/autograder/results gradescope/autograder-base:rocky-8 /autograder/run_autograder"
 export PATH="$PATH:/Applications/Docker.app/Contents/Resources/bin/"
+export PATH="/usr/bin/python3:$PATH"
