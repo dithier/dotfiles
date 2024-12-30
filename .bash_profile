@@ -1,4 +1,2 @@
-source "HOME/.bashrc"
-source "$HOME/.tmux.conf"
+source ~/.bashrc
 
-. ~/.bashrc
