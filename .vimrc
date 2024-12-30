@@ -16,23 +16,6 @@ set nocompatible
 :set shiftwidth=4
 :set expandtab
 
-set tabstop=4
-:set shiftwidth=4
-:set expandtab
-
-set tabstop=4
-:set shiftwidth=4
-:set expandtab
-
-set tabstop=4
-:set shiftwidth=4
-:set expandtab
-
-set tabstop=4
-:set shiftwidth=4
-:set expandtab
-
-
 " Turn on syntax highlighting.
 syntax on
 
